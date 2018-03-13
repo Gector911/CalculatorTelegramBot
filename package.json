@@ -1,0 +1,28 @@
+{
+  "name": "CalculatorTelegramBot",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The bot that sends the calculator in the telegram and you can use it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gector911/CalculatorTelegramBot.git"
+  },
+  "author": "Konstantin Simonov <kostyasimonov55@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Gector911/CalculatorTelegramBot/issues"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.8.6"
+  }
+}
